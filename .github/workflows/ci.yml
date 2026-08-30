@@ -8,6 +8,7 @@ on:
     branches:
       - main
 
+# CI runs tests on PRs and publishes Docker images from main
 permissions:
   id-token: write
   contents: read
