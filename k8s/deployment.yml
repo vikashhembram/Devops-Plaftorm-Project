@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: devops-platform-app
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-platform-app
+
+  template:
+    metadata:
+      labels:
+        app: devops-platform-app
+    spec:
+      containers:
+        - name: devops-platform-app
+          image: vikashhembram/devops-platform-app:3279fcd3740bd6f4e0aa50e63c3a98f07afa4195
+          ports:
+            - containerPort: 5000
