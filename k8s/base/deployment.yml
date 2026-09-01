@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: devops-platform-app
-          image: vikashhembram/devops-platform-app:3279fcd3740bd6f4e0aa50e63c3a98f07afa4195
+          image: vikashhembram/devops-platform-app:latest
           ports:
             - containerPort: 5000
