@@ -2,9 +2,9 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: vikashhembram/devops-platform-app
-    newName: vikashhembram/devops-platform-app
-    newTag: 3279fcd3740bd6f4e0aa50e63c3a98f07afa4195
+- name: vikashhembram/devops-platform-app
+  newName: vikashhembram/devops-platform-app
+  newTag: 32f889387812e813c025a8c37ec3274c6bdfcb13
