@@ -7,4 +7,4 @@ resources:
 images:
 - name: vikashhembram/devops-platform-app
   newName: vikashhembram/devops-platform-app
-  newTag: 32f889387812e813c025a8c37ec3274c6bdfcb13
+  newTag: e78b8ddc6b76019c04ed09a3f874034aeb048f6b
