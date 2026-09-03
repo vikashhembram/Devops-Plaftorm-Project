@@ -11,7 +11,7 @@ class TestApp(unittest.TestCase):
     def test_homepage(self):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data.decode(), "DevOps Platform v2 is running!")
+        self.assertEqual(response.data.decode(), "DevOps Platform v3 is running!")
 
 
 if __name__ == "__main__":
