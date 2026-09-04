@@ -6,5 +6,5 @@ resources:
 
 images:
 - name: vikashhembram/devops-platform-app
-  newName: vikashhembram/devops-platform-app
-  newTag: b98ccfa8443cf9252b3ed6a8008be9836c30c2ce
+  newName: devopsplatformacr.azurecr.io/devops-platform-app
+  newTag: b7382c9e08de16fb6554cdb000810f832740ba42
