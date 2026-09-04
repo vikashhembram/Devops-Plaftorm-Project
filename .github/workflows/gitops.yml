@@ -27,12 +27,12 @@ jobs:
       - name: Setup Kustomize
         uses: imranismail/setup-kustomize@v2
 
-      - name: Update image tag
+      - name: Update image
         run: |
           cd k8s/overlays/dev
 
           kustomize edit set image \
-            vikashhembram/devops-platform-app=vikashhembram/devops-platform-app:${{ github.event.workflow_run.head_sha }}
+            vikashhembram/devops-platform-app=devopsplatformacr.azurecr.io/devops-platform-app:${{ github.event.workflow_run.head_sha }}
 
       - name: Commit GitOps change
         run: |
